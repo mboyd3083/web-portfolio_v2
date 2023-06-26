@@ -5,7 +5,7 @@ import { CiViewTimeline } from "react-icons/ci";
 import { BiCalendar } from "react-icons/bi";
 import {
   jobifyImage,
-  resume,
+  resume2,
   computerPhoto,
   MikeProfilePicture,
   ecommerceImage,
@@ -63,7 +63,7 @@ export const aboutPageData = {
   subtitle: "My Introduction",
   mainImg: MikeProfilePicture,
   buttonText: "Download Resume",
-  resume: resume,
+  resume: resume2,
   aboutDescription: {
     p1: "My name is Micheal, and I am a software developer. I have always been fascinated by technology and the endless possibilities it brings to our world, especially in the realm of web development where innovation is happening at an incredible pace. As a developer, I love the challenge of creating seamless user experiences that are both visually stunning and highly functional.",
 
