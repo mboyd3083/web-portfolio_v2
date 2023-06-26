@@ -6,9 +6,10 @@ import { BiCalendar } from "react-icons/bi";
 import {
   jobifyImage,
   resume,
-  adminProjectImage,
   computerPhoto,
   MikeProfilePicture,
+  ecommerceImage,
+  fullstackAdminPic,
 } from "../assets";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { TfiLinkedin } from "react-icons/tfi";
@@ -235,6 +236,8 @@ export const workPageData = {
   sourceTitle: "Source Code",
   demoTitle: "Live Demo",
 
+  numOfWords: 20,
+
   projectsNav: [
     {
       name: "all",
@@ -248,25 +251,25 @@ export const workPageData = {
   ],
 
   projectsData: [
-    {
-      id: 1,
-      image: adminProjectImage,
-      title: "Admin Dashboard",
-      category: "frontend",
-      description:
-        "This application demonstrates how a admin dashboard would look on the frontend. It offers tons of features such as, interactive graphs to display important data, a text editor page, a fully functional calendar page, and much more!",
-      technologies: [
-        "React",
-        "JavaScript",
-        "React",
-        "JavaScript",
-        "React",
-        "JavaScript",
-      ],
-      githubLink: "https://github.com/mboyd3083",
-      websiteLink: "https://github.com/mboyd3083",
-      subTitle: "Dashboard",
-    },
+    // {
+    //   id: 1,
+    //   image: adminProjectImage,
+    //   title: "Admin Dashboard",
+    //   category: "frontend",
+    //   description:
+    //     "This application demonstrates how a admin dashboard would look on the frontend. It offers tons of features such as, interactive graphs to display important data, a text editor page, a fully functional calendar page, and much more!",
+    //   technologies: [
+    //     "React",
+    //     "JavaScript",
+    //     "React",
+    //     "JavaScript",
+    //     "React",
+    //     "JavaScript",
+    //   ],
+    //   githubLink: "https://github.com/mboyd3083",
+    //   websiteLink: "https://github.com/mboyd3083",
+    //   subTitle: "Dashboard",
+    // },
     {
       id: 2,
       image: jobifyImage,
@@ -274,16 +277,55 @@ export const workPageData = {
       subTitle: "Job Tracking App",
       category: "full stack",
       description:
-        "This is a fullstack job tracking app that uses the Mern stack",
+        "This is a full stack MERN application that helps users effectively manage their job search and interview process.Users can create an account, securely log in, and manage their profile information. Once logged in users have the ability to create new job entries, edit existing ones, and delete entries when necessary. The application incorporates search, filtering, and pagination functionalities, allowing users to easily navigate and locate specific job entries. The application also provides statistics, allowing users to gain insights and monitor their job search performance.",
       technologies: [
         "React",
         "Node.js",
         "Express.js",
         "MongoDB",
         "Styled Components",
+        "JWT",
       ],
       githubLink: "https://github.com/mboyd3083/mern-project-jobify",
       websiteLink: "https://jobify-job-tracker-4cyr.onrender.com",
+    },
+    {
+      id: 3,
+      image: ecommerceImage,
+      title: "Proshop",
+      subTitle: "Ecommerce App",
+      category: "full stack",
+      description:
+        "This full-stack MERN (MongoDB, Express, React, Node.js) application utilizes Redux Toolkit for state management and handles requests to the backend. The project offers a wide range of functionalities, allowing users to register and log in, browse through a variety of products, add items to their shopping cart, and proceed to checkout using PayPal for secure transactions. Furthermore, users have access to their order history, enabling them to review their past purchases. The application also allows users to leave reviews for products, and admins can create new products, update existing products, and delete products.",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "React Bootstrap",
+        "Redux Toolkit",
+      ],
+      githubLink: "https://github.com/mboyd3083/fullstack-ecommerce",
+      websiteLink: "https://proshop-qfgs.onrender.com/",
+    },
+    {
+      id: 4,
+      image: fullstackAdminPic,
+      title: "Fullstack Admin Dashboard",
+      subTitle: "Dashboard",
+      category: "full stack",
+      description:
+        "This Fullstack Admin Dashboard project serves as a comprehensive management tool. This application is built using the MERN (MongoDB, Express, React, Node.js) stack, employing Redux Toolkit for efficient state management and handling backend requests. The Admin Dashboard project utilizes Material UI's extensive collection of components, including graphs and tables, to present data and statistics in a visually appealing and user-friendly manner. This enables administrators to easily interpret and make informed decisions based on the displayed information",
+      technologies: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Material UI",
+        "Redux Toolkit",
+      ],
+      githubLink: "https://github.com/mboyd3083/fullstack-dashboard-app",
+      websiteLink: "https://fullstack-admin-ai9g.onrender.com",
     },
   ],
 };

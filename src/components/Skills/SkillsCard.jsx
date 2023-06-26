@@ -7,6 +7,8 @@ const SkillsCard = ({ name, icon, skills }) => {
         <div className="skills-title__icon">{icon}</div>
 
         <h3 className="skills__title">{name}</h3>
+
+        <div className="line"></div>
       </div>
 
       <div className="skills__box">

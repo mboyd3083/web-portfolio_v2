@@ -8,11 +8,25 @@
   /* Color mode HSL(hue, saturation, lightness) */
   --hue: 0;
   --sat: 0%;
+  /* --title-color: hsl(var(--hue), var(--sat), 20%); */
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --outline-color : var(--title-color-dark);
+  --button-color_v1 : red;
+  --button-color_v2 : red;
+  --header-color: (--title-color);
+  --subheader-color:(--text-color);
+  
+  --button-hover-color-v1: var(--title-color-dark);
+  --button-bg-color-v1: var(--title-color-dark);
+  --button-text-color-v1: var(--title-color-dark);
+  --button-text-color-v2: var(--container-color);
+  --icon-color-v1: var(--title-color);
+  --card-color-v1: var(--container-color);
+  --card-color-v2: var(--body-color);
 
   /* ========== FONT AND TYPOGRAPHY ========== */
 
