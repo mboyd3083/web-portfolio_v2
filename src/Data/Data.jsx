@@ -311,8 +311,8 @@ export const workPageData = {
     {
       id: 4,
       image: fullstackAdminPic,
-      title: "Fullstack Admin Dashboard",
-      subTitle: "Dashboard",
+      title: "ECOMVISION",
+      subTitle: "FullStack admin dashboard",
       category: "full stack",
       description:
         "This Fullstack Admin Dashboard project serves as a comprehensive management tool. This application is built using the MERN (MongoDB, Express, React, Node.js) stack, employing Redux Toolkit for efficient state management and handling backend requests. The Admin Dashboard project utilizes Material UI's extensive collection of components, including graphs and tables, to present data and statistics in a visually appealing and user-friendly manner. This enables administrators to easily interpret and make informed decisions based on the displayed information",
