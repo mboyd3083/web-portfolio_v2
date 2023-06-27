@@ -36,6 +36,7 @@ import { GrMysql } from "react-icons/gr";
 import { CgFigma } from "react-icons/cg";
 import { DiGit } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
+import {SiPostman} from "react-icons/si";
 
 const year = new Date().getFullYear();
 export const homePageData = {
@@ -200,7 +201,11 @@ export const skillsPageData = {
       },
       {
         skillName: "Postman",
-        icon: "",
+        icon: <SiPostman />,
+      },
+      {
+        skillName: "Render",
+        icon: <HiOutlineCheckCircle />,
       },
     ],
   },
