@@ -13,6 +13,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
+  --body-color-v2: #f0f0eb;
   --container-color: #fff;
   --outline-color : var(--title-color-dark);
   --button-color_v1 : red;
