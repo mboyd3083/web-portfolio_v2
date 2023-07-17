@@ -8,8 +8,9 @@ import {
   resume2,
   computerPhoto,
   MikeProfilePicture,
-  ecommerceImage,
+  // ecommerceImage,
   fullstackAdminPic,
+  proshopImage
 } from "../assets";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { TfiLinkedin } from "react-icons/tfi";
@@ -296,7 +297,7 @@ export const workPageData = {
     },
     {
       id: 3,
-      image: ecommerceImage,
+      image: proshopImage,
       title: "Proshop",
       subTitle: "Ecommerce App",
       category: "full stack",

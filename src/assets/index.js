@@ -10,7 +10,7 @@ import MikeProfilePic_v2 from "./MikeProfilePic_v2.PNG";
 import MikeProfilePic_v3 from "./MikeProfilePic_v3.PNG";
 import ecommerceImage from "./Ecommerce_Image.png";
 import fullstackAdminPic from "./FullstackAdminPic.png";
-
+import proshopImage from "./proshop_screen_shot.png";
 export {
   computerPhoto,
   profilePic,
@@ -24,4 +24,5 @@ export {
   MikeProfilePic_v3,
   fullstackAdminPic,
   resume2,
+  proshopImage,
 };
