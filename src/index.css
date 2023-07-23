@@ -1,5 +1,8 @@
 /* ========== GOOGLE FONTS ========== */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
 
 /* ========== CSS VARIBLES ========== */
 :root {
@@ -12,15 +15,16 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
+  /* --body-color: hsl(var(--hue), var(--sat), 98%); */
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --body-color-v2: #f0f0eb;
   --container-color: #fff;
-  --outline-color : var(--title-color-dark);
-  --button-color_v1 : red;
-  --button-color_v2 : red;
+  --outline-color: var(--title-color-dark);
+  --button-color_v1: red;
+  --button-color_v2: red;
   --header-color: (--title-color);
-  --subheader-color:(--text-color);
-  
+  --subheader-color: (--text-color);
+
   --button-hover-color-v1: var(--title-color-dark);
   --button-bg-color-v1: var(--title-color-dark);
   --button-text-color-v1: var(--title-color-dark);
@@ -32,6 +36,8 @@
   /* ========== FONT AND TYPOGRAPHY ========== */
 
   --body-font: "Poppins", sans-serif;
+  /* --body-font: "Tektur", cursive; */
+  --body-font: "Inter", sans-serif;
 
   /* .5rem = 8px | 1rem = 16px ... */
   --big-font-size: 3.5rem;
@@ -224,6 +230,10 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  .section__subtitle {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 /* For small deivice */
