@@ -214,7 +214,7 @@ export const skillsPageData = {
 
 export const experiencePageData = {
   title: "Experience",
-  subtitle: "Highlighting Key Accomplishments and Professional Growth",
+  subtitle: "Highlighting Accomplishments and Professional Growth",
 
   sectionTitle: "Timeline",
   sectionIcon: <CiViewTimeline />,
