@@ -5,16 +5,14 @@ import { CiViewTimeline } from "react-icons/ci";
 import { BiCalendar } from "react-icons/bi";
 import {
   jobifyImage,
-  resume2,
+  resume3,
   computerPhoto,
   MikeProfilePicture,
-  // ecommerceImage,
   fullstackAdminPic,
   proshopImage
 } from "../assets";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { TfiLinkedin } from "react-icons/tfi";
-// import { profilePic } from "../assets";
 import { BsSpeaker } from "react-icons/bs";
 import { CgGym } from "react-icons/cg";
 import { BiBrain } from "react-icons/bi";
@@ -65,7 +63,7 @@ export const aboutPageData = {
   subtitle: "My Introduction",
   mainImg: MikeProfilePicture,
   buttonText: "Download Resume",
-  resume: resume2,
+  resume: resume3,
   aboutDescription: {
     p1: "My name is Micheal, and I am a software developer. I have always been fascinated by technology and the endless possibilities it brings to our world, especially in the realm of web development where innovation is happening at an incredible pace. As a developer, I love the challenge of creating seamless user experiences that are both visually stunning and highly functional.",
 
@@ -257,27 +255,8 @@ export const workPageData = {
   ],
 
   projectsData: [
-    // {
-    //   id: 1,
-    //   image: adminProjectImage,
-    //   title: "Admin Dashboard",
-    //   category: "frontend",
-    //   description:
-    //     "This application demonstrates how a admin dashboard would look on the frontend. It offers tons of features such as, interactive graphs to display important data, a text editor page, a fully functional calendar page, and much more!",
-    //   technologies: [
-    //     "React",
-    //     "JavaScript",
-    //     "React",
-    //     "JavaScript",
-    //     "React",
-    //     "JavaScript",
-    //   ],
-    //   githubLink: "https://github.com/mboyd3083",
-    //   websiteLink: "https://github.com/mboyd3083",
-    //   subTitle: "Dashboard",
-    // },
     {
-      id: 2,
+      id: 1,
       image: jobifyImage,
       title: "Jobify",
       subTitle: "Job Tracking App",
@@ -296,13 +275,13 @@ export const workPageData = {
       websiteLink: "https://jobify-job-tracker-4cyr.onrender.com",
     },
     {
-      id: 3,
+      id: 2,
       image: proshopImage,
       title: "Proshop",
       subTitle: "Ecommerce App",
       category: "full stack",
       description:
-        "This full-stack MERN (MongoDB, Express, React, Node.js) application utilizes Redux Toolkit for state management and handles requests to the backend. The project offers a wide range of functionalities, allowing users to register and log in, browse through a variety of products, add items to their shopping cart, and proceed to checkout using PayPal for secure transactions. Furthermore, users have access to their order history, enabling them to review their past purchases. The application also allows users to leave reviews for products, and admins can create new products, update existing products, and delete products.",
+        "This full-stack MERN (MongoDB, Express, React, Node.js) application utilizes Redux Toolkit for state management and handles requests to the backend. The project offers a wide range of functionalities, allowing users to register and log in, browse through a variety of products, add items to their shopping cart, and proceed to checkout using PayPal for secure transactions. Users have the ability to leave reviews for products they have purchased. Admins have the ability to create, update, and delete products.",
       technologies: [
         "React",
         "Node.js",
@@ -315,7 +294,7 @@ export const workPageData = {
       websiteLink: "https://proshop-qfgs.onrender.com/",
     },
     {
-      id: 4,
+      id: 3,
       image: fullstackAdminPic,
       title: "ECOMVISION",
       subTitle: "FullStack admin dashboard",
