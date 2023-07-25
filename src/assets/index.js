@@ -4,6 +4,7 @@ import mikeSticker from "./mikeSticker.png";
 import jobifyImage from "./jobifyImage.png";
 import resume from "./Resume5.pdf";
 import resume2 from "./Resume_v1.pdf";
+import resume3 from "./Resume_v3.pdf";
 import adminProjectImage from "./adminProject.png";
 import MikeProfilePicture from "./MikeProfilePicture.PNG";
 import MikeProfilePic_v2 from "./MikeProfilePic_v2.PNG";
@@ -24,5 +25,6 @@ export {
   MikeProfilePic_v3,
   fullstackAdminPic,
   resume2,
+  resume3,
   proshopImage,
 };
