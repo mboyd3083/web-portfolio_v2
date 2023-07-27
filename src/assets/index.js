@@ -12,6 +12,7 @@ import MikeProfilePic_v3 from "./MikeProfilePic_v3.PNG";
 import ecommerceImage from "./Ecommerce_Image.png";
 import fullstackAdminPic from "./FullstackAdminPic.png";
 import proshopImage from "./proshop_screen_shot.png";
+import promptopiaImage from "./promptopia-image.png";
 export {
   computerPhoto,
   profilePic,
@@ -27,4 +28,5 @@ export {
   resume2,
   resume3,
   proshopImage,
+  promptopiaImage,
 };
