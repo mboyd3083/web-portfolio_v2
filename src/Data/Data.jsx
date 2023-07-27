@@ -9,7 +9,8 @@ import {
   computerPhoto,
   MikeProfilePicture,
   fullstackAdminPic,
-  proshopImage
+  proshopImage,
+  promptopiaImage,
 } from "../assets";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { TfiLinkedin } from "react-icons/tfi";
@@ -311,6 +312,24 @@ export const workPageData = {
       ],
       githubLink: "https://github.com/mboyd3083/fullstack-dashboard-app",
       websiteLink: "https://fullstack-admin-ai9g.onrender.com",
+    },
+    {
+      id: 4,
+      image: promptopiaImage,
+      title: "Promptopia",
+      subTitle: "FullStack prompt sharing app",
+      category: "full stack",
+      description:
+        "Promptopia is a fullstack Next.js web application built for sharing and discovering AI writing prompts. It allows users to login via Google OAuth and access a community feed for posting useful prompts. After logging in, users have full CRUD functionality to create posts sharing prompts to the public feed. Users have personal profile pages to manage their own prompts, with options to edit or delete their posts. Promptopia provides a platform for crowdsourcing top writing prompts across domains, enabling members to easily find inspiration for leveraging AI. The app is built with Next.js on the frontend, integrates OAuth for authentication, and connects to MongoDB to facilitate user accounts and prompt sharing.",
+      technologies: [
+        "React",
+        "Next.js",
+        "MongoDB",
+        "OAuth 2.0",
+        "Tailwind CSS",
+      ],
+      githubLink: "https://github.com/mboyd3083/promptopia",
+      websiteLink: "https://promptopia-xi-eight.vercel.app/",
     },
   ],
 };
