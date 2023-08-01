@@ -76,9 +76,10 @@
 
 .work__description {
   margin-left: 15px;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   margin-bottom: var(--mb-0-75);
   font-weight: var(--font-normal);
+  /* border: 1px solid red; */
 }
 
 .work__technologies-container {
@@ -100,11 +101,15 @@
   margin-right: 10px;
   margin-bottom: 10px;
   background-color: rgb(229, 231, 235);
+  /* background-color: var(--container-color); */
+  /* color: var(--text-color); */
   color: var(--title-color);
   border-radius: 1rem;
-  font-size: 0.7rem;
+  /* font-size: 0.8rem; */
+  font-size: var(--smaller-font-size);
   font-weight: var(--font-semi-bold);
   padding: 2px 5px 2px 5px;
+  /* border: 1px var(--text-color) solid; */
 }
 
 .work__button-container {
