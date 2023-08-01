@@ -37,6 +37,7 @@ import { CgFigma } from "react-icons/cg";
 import { DiGit } from "react-icons/di";
 import { AiFillGithub } from "react-icons/ai";
 import {SiPostman} from "react-icons/si";
+import {TbBrandNextjs} from "react-icons/tb";
 
 const year = new Date().getFullYear();
 export const homePageData = {
@@ -152,6 +153,10 @@ export const skillsPageData = {
       {
         skillName: "Express.js",
         icon: <SiExpress />,
+      },
+      {
+        skillName: "Next.js",
+        icon: <TbBrandNextjs />,
       },
       {
         skillName: "Spring",
