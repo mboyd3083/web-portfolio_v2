@@ -67,9 +67,9 @@ export const aboutPageData = {
   buttonText: "Download Resume",
   resume: resume3,
   aboutDescription: {
-    p1: "My name is Micheal, and I am a software developer. I have always been fascinated by technology and the endless possibilities it brings to our world, especially in the realm of web development where innovation is happening at an incredible pace. As a developer, I love the challenge of creating seamless user experiences that are both visually stunning and highly functional.",
+    p1: "Hi, I'm Micheal - an aspiring software developer with a passion for creating innovative web experiences. I'm driven by creativity, constant learning, and a desire to leverage technology to solve problems. My goal is to craft web experiences that are both aesthetically pleasing and highly functional.",
 
-    p2: "In my free time, I enjoy exercising to stay physically fit and energized. I also have a keen interest in audio engineering, and love experimenting with sound and music. Above all, I have a passion for learning and constantly expanding my knowledge in various fields. I believe that continuous learning is key to personal growth and success in any career, and I am always eager to discover new things and challenge myself.",
+    p2: "When I'm not coding, you can find me breaking a sweat at the gym or immersing myself in the world of audio engineering. I'm always eager to expand my skills and knowledge into new territories. Self-improvement is important to me, whether it's leveling up my abilities as a developer or discovering new hobbies.",
   },
   hobbies: [
     {
